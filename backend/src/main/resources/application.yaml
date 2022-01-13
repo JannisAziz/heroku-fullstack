@@ -1,7 +1,5 @@
 spring.data.mongodb:
-  host: localhost
-  port: 27017
-  database: personalLists
+  uri: mongodb+srv://HappyHanYolo:KhammasMongo@personalmongocluster.xmch5.mongodb.net/PersonalMongoCluster?retryWrites=true&w=majority
 
 #database.paths:
 #  mainURL: /lists

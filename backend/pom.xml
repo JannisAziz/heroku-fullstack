@@ -59,7 +59,16 @@
                     </excludes>
                 </configuration>
             </plugin>
-
+            <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>de.jannisaziz.fullstack-heroku-backend.BackendApplication</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
 
 
 

@@ -1,4 +1,5 @@
-mkdir -p target/classes/static
+#mkdir -p target/classes/static
+mkdir -p src/main/resources/static
 
 cd ../frontend
 npm install && npm run build

@@ -1,6 +1,8 @@
 spring.data.mongodb:
   uri: mongodb+srv://HappyHanYolo:KhammasMongo@personalmongocluster.xmch5.mongodb.net/PersonalMongoCluster?retryWrites=true&w=majority
 
+server.port: ${PORT:8080}
+
 #database.paths:
 #  mainURL: /lists
 #  get: all
